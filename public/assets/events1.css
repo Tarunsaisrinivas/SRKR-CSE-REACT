@@ -1,0 +1,283 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin:0;
+  padding:0;
+}
+
+/* .promotions {
+  border-radius:5px;
+  padding: 0 15px;
+  background-color:#fff;
+  position: relative;
+  margin: 50px 50px;
+}
+
+.slider-label {
+  position: absolute;
+  right: 20px;
+  top: 8px;
+  color:#aaa;
+  font-size: 14px;
+  font-weight: 600
+}
+
+.PromotionsList {position: relative;}
+
+
+.PromotionsList:before,
+.PromotionsList:after {
+  content:'';
+  position: absolute;
+  width: 300px;
+  height: 55px;
+  z-index: 2;
+}
+
+.PromotionsList:before {
+  top: -25px;
+  border-radius: 0 0 8px 8px;
+ background: rgb(243,243,243);
+}
+
+.PromotionsList:after {
+  bottom: -25px;
+  border-radius: 8px 8px 0 0;
+  background: rgb(243,243,243);
+}
+
+.PromotionsList {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  position: relative;
+  height: 330px;
+  box-sizing: border-box;
+  overflow:hidden;
+  z-index: 3;
+}
+
+.carousel-caption {
+  display: flex;
+  align-items: center;
+  position: relative;
+  position:absolute;
+  top: 40px;
+  width: 100%;
+  z-index:1;
+}
+.carousel-caption.active {
+  z-index:2;
+}
+
+.carousel-caption .app-icon {
+  border: 1px solid #e4e4e4;
+  border-radius:8px;
+  background-color:#fff;
+  position: relative;
+  top: 260px;
+  height: 250px;
+  width: 300px;
+  align-items: center;
+  text-align: center;
+  line-height: 85px; 
+  transition: all .3s ease-out;
+  box-sizing: border-box;
+  padding: 50px;
+  opacity: 0;
+}
+
+.carousel-caption.transform .app-icon {
+  transform: translateY(-100px);
+  top: 0;
+  opacity: 0;
+}
+
+.carousel-caption .app-icon img { 
+  vertical-align: middle;
+  height: 100%;
+}
+
+.carousel-caption.active .app-icon {
+  top: 0;
+  opacity: 1;
+  z-index: 3;
+}
+
+
+.carousel-caption .app-short-desc {
+  margin-left: 35px;
+  opacity: 0;
+  transition: all .3s ease-out;
+}
+
+.carousel-caption.active .app-short-desc {
+  opacity: 1.0;
+}
+
+.carousel-caption .app-short-desc span.app-title,
+.carousel-caption .app-short-desc span.app-desc {
+  display: block;
+  margin: 8px 0;
+}
+
+.carousel-caption .app-short-desc span.app-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.carousel-caption .app-short-desc span.app-desc {
+   font-size: 16px;
+   font-weight: 400;
+  max-width:700px;
+}
+
+.carousel-caption .app-short-desc .learn-button {
+  display: block;
+}
+
+.carousel-caption .app-short-desc .learn-button button {
+  padding: 10px 25px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  background: #fff;
+  font-size: 16px;
+  color: blue;
+  cursor: pointer;
+}
+
+.carousel-caption .app-short-desc span.app-title .learn-button button:hover{
+  background-color: blue;
+  color:#fff;
+} */
+
+/* .controls {
+  position: absolute;
+  right: 30px;
+  text-align:right;
+  bottom: 10px;
+  z-index:3;
+}
+
+.controls span.dot {
+  width:10px;
+  height: 10px;
+  background-color:#ccc;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.controls span.dot {
+  width:10px;
+  height: 10px;
+  background-color:#eee;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.controls span.dot.active {
+  background-color:#ccc;
+} */
+
+
+/* carosel */
+.slider-container {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+}
+
+/* Set a fixed height for all carousel items */
+.carousel-inner img {
+  width: 100%;
+  height: 400px; /* Adjust the height as needed */
+}
+
+.carousel-inner{
+  height: 400px;
+}
+
+.carousel-caption {
+  /* Semi-transparent black background */
+  color: #000000; /* White text */
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 80%;
+ /* Full height */
+}
+
+
+ 
+.prev,
+.next {
+  position: absolute;
+  top:100% !important;
+  height:30px; /* Black background color */
+  color: #fff; /* White text color */
+}
+
+.prev{
+  background-color: #ff0000;
+}
+
+.next{
+  background-color: #0D25B9;
+}
+
+.event-sec{
+  margin-top:10px;
+}
+
+
+.carousel-caption .app-short-desc1 span.app-title1,
+.carousel-caption .app-short-desc1 span.app-desc1 {
+  display: block;
+  margin: 8px 0;
+}
+
+.carousel-caption .app-short-desc1 span.app-title1 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.carousel-caption .app-short-desc span.app-desc {
+   font-size: 16px;
+   font-weight: 400;
+  max-width:700px;
+}
+
+.carousel-caption .app-short-desc .learn-button {
+  display: block;
+}
+
+.carousel-caption .app-short-desc .learn-button button {
+  padding: 10px 25px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  background: #fff;
+  font-size: 16px;
+  color: blue;
+  cursor: pointer;
+}
+
+.carousel-caption .app-short-desc span.app-title .learn-button button:hover{
+  background-color: blue;
+  color:#fff;
+}
+
+@media (max-width: 767px) {
+
+  .slider-container {
+     height: 800px;
+     background-color: #e7a9a9;
+  }
+
+  #carouselExample{
+    height: 800px;
+  }
+
+}
+
+
+

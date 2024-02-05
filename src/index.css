@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.ant-float-btn-body {
+  background: #616161 !important;
+}
+.ant-float-btn-body svg {
+  color: #fff;
+}

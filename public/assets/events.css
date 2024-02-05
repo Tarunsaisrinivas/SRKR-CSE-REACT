@@ -1,0 +1,117 @@
+.border{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width:90%;
+    margin-bottom: 30px;
+}
+
+.event-page{
+    display: flex;
+    height: 400px;
+    width:100%;
+     }
+  .img-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  .desc-sec{
+    width: 50%;
+  }
+  .inside-img{
+  width:100%;
+  }
+
+  .inside-img img{
+    height: 400px;
+    padding:50px;
+  }
+
+.prev,
+.next {
+  position: absolute;
+  top:100% !important;
+  height:30px; 
+  color: #fff; 
+}
+
+
+  .prev{
+    background-color: #ff0000;
+  }
+  
+  .next{
+    background-color: #0D25B9;
+  }
+
+  .desc-sec span.app-title,
+.desc-sec span.app-desc {
+  display: block;
+  margin: 8px 0;
+}
+
+.desc-sec span.app-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top:50px;
+}
+
+.desc-sec span.app-desc {
+   font-size: 16px;
+   font-weight: 400;
+  max-width:700px;
+}
+
+.desc-sec .learn-button {
+  display: block;
+}
+
+.desc-sec .learn-button button {
+  padding: 10px 25px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  background: #fff;
+  font-size: 16px;
+  color: blue;
+  cursor: pointer;
+}
+
+.desc-sec span.app-title .learn-button button:hover{
+  background-color: blue;
+  color:#fff;
+}
+  
+
+
+
+  @media  (max-width:768px) {
+    .event-page{
+    flex-direction: column;
+    height:750px;
+  }
+  
+  .img-sec{
+    height: 500px;
+    width: 100%;
+  }
+  
+  
+  .desc-sec{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+  }
+
+  .desc-sec span.app-title {
+    margin-top:10px;
+  }
+
+  .inside-img img{
+    height: 350px;
+    width:500px;
+    padding:20px;
+  }
+  }
+  
