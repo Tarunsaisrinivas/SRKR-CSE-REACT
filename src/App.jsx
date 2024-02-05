@@ -8,6 +8,7 @@ import Publication from './pages/Publication'
 
 import Placements from './pages/Placements'
 import Achievements from './pages/Achievements'
+import Sample from './pages/Sample'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Route path='/Publication' element={<Publication />} />
       <Route path='/Placements' element={<Placements />} />
       <Route path='/Achievements' element={<Achievements />} />
+      <Route path='/Sample' element={<Sample />} />
     </Routes>
     </BrowserRouter>
   )
